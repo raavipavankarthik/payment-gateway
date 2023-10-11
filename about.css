@@ -1,0 +1,169 @@
+body {
+    /* background-image: url("images/WhatsApp\ Image\ 2022-09-06\ at\ 11.32.55\ PM.jpeg"); */
+    /* background-color: black; */
+    color: white;
+  }
+  body:after {
+    content: "";
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0.7, 0.5, 0.1, 0.1);
+    pointer-events: none;
+    background-blend-mode: darken;
+    z-index: -1;
+    position: relative;
+  }
+  .logo{
+    width: 60px;
+    height: 60px;
+    padding: 0%;
+  }
+  .navbar-brand{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    padding: 5%;
+    padding-right: 32%;
+  }
+  .navbar .navbar-nav .nav-item::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #6F8FAF;
+    width: 0%;
+    content: "";
+    height: 4px;
+    transition: all 0.5s;
+  }
+  .navbar .navbar-nav .nav-link {
+    color: white;
+    font-size: 1.15em;
+  }
+  .navbar .navbar-nav .nav-link:hover {
+    color: #ADD8E6;
+  }
+  .navbar .navbar-nav .nav-item {
+    position: relative;
+  }
+  .navbar .navbar-nav .nav-item:hover::after {
+    width: 100%;
+    color: white;
+  }
+  .PaymentButton--rzpTheme.svelte-ekc7fv.svelte-ekc7fv:hover{
+    transform: scale(1.15);
+    transition: all 0.3s;
+  }
+
+  .header-text {
+    color: white;
+    margin-left: 30%;
+    margin-top: 20%;
+  }
+  #about {
+    color: white;
+  }
+  hr {
+    height: 1px;
+  }
+  img {
+    height: 300px;
+  }
+  .quote{
+    color: #be6400;
+    text-align: end;
+    font-size: larger;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  }
+  #about {
+    /* background-image: url("images/bg1.jpg"); */
+    background-color: black;
+  }
+  .row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .container h1 {
+    justify-content: center;
+    margin-left: 482px;
+  }
+  .about-col-1 img {
+    border-radius: 15px;
+  }
+  .about-col-3 img {
+    border-radius: 15px;
+    height: -15px;
+  }
+  .aa {
+    border: solid 4px #aeaeae;
+    display: inline-block;
+    border-radius: 20px;
+  }
+  .aa:hover {
+    border: solid 5px orangered;
+    transition: all 0.2s;
+  }
+  hr {
+    margin: 1rem 0;
+    color: inherit;
+    height: 19px;
+    border: 0;
+    border-top: 9px solid;
+    opacity: 1.25;
+  }
+  .about-col-2 h2 {
+    color: #ADD8E6;
+    text-decoration: underline;
+    text-underline-position: under;
+  }
+  .a {
+    color: #ff004f;
+    margin-top: 0px;
+    margin-bottom: -1.5rem;
+  }
+  footer.links {
+    background-color: black;
+    margin-top: 5rem;
+    margin-bottom: 0px;
+    padding: 1% 45%;
+    color: white;
+  }
+  .fa{
+    padding: 6%;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 45%;
+    margin-bottom: 10%;
+    margin-right: 5%;
+  }
+  .fa:hover {
+    opacity: 0.7;
+    color: white;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .fa-instagram {
+    background: #3f729b;
+    color: white;
+  }
+  footer p{
+    background-color: black;
+    padding-left: 33% ;
+    padding-bottom: 2%;
+    color: white;
+    margin: 0%;
+  }
